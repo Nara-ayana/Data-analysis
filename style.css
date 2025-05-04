@@ -1,0 +1,45 @@
+body {
+    background-image: url("images/backgroung.png");
+    background-size: cover;
+    background-blend-mode: lighten;
+    text-align: center;
+    font-family: 'Nokia Cellphone FC', sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .submit-btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: hotpink;
+    padding: 5px 12px;
+    margin-left: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: deeppink;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;              /* увеличенный размер шрифта */
+    border: 2px dashed #000;      /* более толстая рамка */
+    padding: 12px 24px;           /* увеличенные отступы */
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;    /* плавность при наведении */
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);       /* лёгкое увеличение при наведении */
+  }
